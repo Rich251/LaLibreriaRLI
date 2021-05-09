@@ -1,7 +1,7 @@
 if DB_ID('LaLibreriaLRI') is null
 use LaLibreriaLRI
 
---Richard Vicente -20-SIIM-1-1069--Trabajo final de BD.
+--Richard Vicente -20-SIIN-1-1069--Trabajo final de BD.
 
 BEGIN
 DROP DATABASE LaLibreriaLRI;
@@ -28,7 +28,7 @@ Eapellido VARCHAR(40),
 Edireccion VARCHAR(50),
 Telefono varchar(10),
 usuario VARCHAR(10),
-Contraseña VARCHAR(20),
+ContraseÃ±a VARCHAR(20),
 correo varchar(8),
   CONSTRAINT empleado_PK PRIMARY KEY (empleadoID)
 );
@@ -135,7 +135,7 @@ select *from detalle_ProblemadeLibros;
 --inser sample data --Empleado-- ingreso de nuevo lector o cliente--
 
 insert into empleado
-(empleadoID, Enombre, Eapellido, sexo, Edireccion, Telefono, usuario, contraseña, correo, Salario)
+(empleadoID, Enombre, Eapellido, sexo, Edireccion, Telefono, usuario, contraseÃ±a, correo, Salario)
 values
 ('1556','Fatima','Vicente','F','SantoDomingo','8295874525','FV541','sde','FV@gmail','2500' )
 
