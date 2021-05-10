@@ -1,7 +1,7 @@
 if DB_ID('LaLibreriaLRI') is null
 use LaLibreriaLRI
 
---Richard Vicente -20-SIIN-1-1069--Trabajo final de BD.
+--Richard Vicente -20-SIIN-1-069- Trabajo final de BD.
 
 BEGIN
 DROP DATABASE LaLibreriaLRI;
